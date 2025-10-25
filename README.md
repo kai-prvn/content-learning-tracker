@@ -1,99 +1,98 @@
 # Content Learning Tracker 📝
 
-A clean, minimal web app to capture and review key insights from educational content (videos, podcasts, articles, documentaries).
+A clean, minimal web app to capture and review key insights from educational content.
 
-## 🎯 Problem
+![Status](https://img.shields.io/badge/status-active-success.svg)
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 
-As a student consuming diverse educational content, I was forgetting key insights within days. I had no system to capture and review what I learned.
+## 🎯 The Problem
 
-## ✨ Solution
+As a student consuming diverse educational content (videos, podcasts, documentaries), I kept forgetting key insights within days. I had no simple system to capture and review what I learned.
 
-Built a quick-capture system with spaced repetition (random review) to help retain learnings long-term.
+## ✨ The Solution
+
+Built a quick-capture system with spaced repetition - a random review feature that surfaces old notes to help retain learnings long-term.
 
 ## 🚀 Features
 
-- **Quick Capture**: Save notes with title, insight, topic, and optional source link
-- **Random Review**: Spaced repetition - shows random notes from your collection
+- **Quick Capture**: Save notes with title, insight, topic, and optional source link (< 30 seconds)
+- **Random Review**: Spaced repetition system - shows random notes from your collection
 - **Smart Filtering**: Filter by topic or search across all notes
-- **Clean Design**: Mobile-first, calming colors, distraction-free
-- **Persistent Storage**: Notes saved in Supabase cloud database
-- **Fast & Responsive**: Works on phone, tablet, and desktop
+- **Clean Design**: Mobile-first, calming colors, distraction-free interface
+- **Persistent Storage**: Notes saved locally in browser (localStorage)
+- **Privacy-First**: All data stays on your device, nothing sent to servers
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React + TypeScript
+- **Frontend**: React 18 + TypeScript
 - **Styling**: Tailwind CSS
 - **Build Tool**: Vite
-- **Database**: Supabase (PostgreSQL)
-- **Deployment**: Netlify
+- **Storage**: Browser localStorage
 - **Development**: Built with Bolt.new (AI-assisted)
 
-## 🏃 Running Locally
 
-1. Clone the repository:
+## 🏃 Running Locally
 ```bash
+# Clone the repository
 git clone https://github.com/kai-prvn/content-learning-tracker.git
 cd content-learning-tracker
-```
 
-2. Install dependencies:
-```bash
+# Install dependencies
 npm install
-```
 
-3. Create `.env` file in root with your Supabase credentials:
-```
-VITE_SUPABASE_URL=your_supabase_url
-VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-```
-
-4. Run development server:
-```bash
+# Run development server
 npm run dev
+
+# Open http://localhost:5173
 ```
 
-5. Open [http://localhost:5173](http://localhost:5173)
+## 📱 Usage
 
-
+1. **Add a Note**: Click "Add New Note", fill in what you learned
+2. **Review Randomly**: Click "Review Random Note" for spaced repetition
+3. **Search/Filter**: Use search or topic filters to find specific notes
+4. **Delete**: Hover over a note card and click delete (with confirmation)
 
 ## 💡 What I Learned
 
-Building this project taught me:
-- **Product thinking**: Identifying a real problem and building a focused solution
-- **AI-assisted development**: Using Bolt.new to accelerate development
-- **React + TypeScript**: Component-based architecture and type safety
-- **Supabase**: Backend-as-a-service, database setup, authentication
-- **Deployment**: CI/CD with Netlify
-- **Troubleshooting**: Debugging issues (database vs localStorage trade-offs)
+This was my first full project, teaching me:
+
+- **Product Thinking**: Going from problem → solution → features
+- **AI-Assisted Development**: Using Bolt.new to accelerate building
+- **React Fundamentals**: Components, state management, hooks
+- **TypeScript**: Type safety in a real project
+- **localStorage API**: Client-side data persistence
+- **Deployment**: From local dev to live app
+- **Troubleshooting**: Debugging issues, making technical tradeoffs
 
 ## 🔮 Future Improvements
 
 - [ ] Export notes as Markdown/CSV
 - [ ] Dark mode toggle
-- [ ] Edit existing notes
-- [ ] Tags/categories beyond topics
-- [ ] Note statistics and insights
-- [ ] Sync across devices (PWA)
-- [ ] Daily review reminders
-- [ ] Notion/Obsidian integration
+- [ ] Edit existing notes inline
+- [ ] Rich text formatting
+- [ ] Desktop/mobile apps (PWA)
+- [ ] Cloud sync (optional, privacy-preserving)
+- [ ] Browser extension for quick capture
+- [ ] Integration with Notion/Obsidian
 
-## 📝 Project Context
+## 🎓 Project Context
 
-**Built as:** Project #1 in my journey to learn product design and development  
-**Timeline:** Built in ~2 hours over 1 day  
-**Status:** Active personal use, continuously iterating based on feedback
+**Built as**: Project #1 in my product development learning journey  
+**Timeline**: ~2 hours over 1 day  
+**Status**: Active personal use, iterating based on real usage  
+**Purpose**: Learning to ship products, not just code
 
-## 🤝 Contributing
+## 🤝 Feedback Welcome
 
-This is a personal learning project, but suggestions and feedback are welcome! Feel free to:
-- Open an issue with feature suggestions
-- Share how you'd improve the UX/UI
-- Fork and build your own version
+This is a learning project. If you have ideas, suggestions, or found this useful, I'd love to hear from you!
+
+- Open an issue with suggestions
+- Fork and experiment with your own version
+- Share your learning tracker approach
 
 ## 📄 License
 
-MIT License - feel free to use this for learning!
+MIT License - Feel free to learn from or build upon this!
 
 ---
-
-**Built with ❤️ as part of my product development learning journey**
