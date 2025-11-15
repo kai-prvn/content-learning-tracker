@@ -39,12 +39,24 @@ Built entirely with AI assistance. I had an idea, AI helped me build it. The cod
 
 ## Notes
 
-This was vibecoded with AI. I'm not a developer and not trying to become one. Just wanted to build something useful and I did.
+This was vibecoded with AI.
 
-## Run It
+## Setup
+
+1. Clone the repo:
 ```bash
-npm install
-npm start
+git clone https://github.com/kai-prvn/content-learning-tracker.git
+cd content-learning-tracker
 ```
 
-Open http://localhost:3000
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Run development server:
+```bash
+npm run dev
+```
+
+4. Open http://localhost:5173
