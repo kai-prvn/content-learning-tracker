@@ -1,38 +1,50 @@
-# content learning tracker
+# Content Learning Tracker
 
-a tool for capturing and reviewing insights from educational content.
+A tool for capturing and reviewing insights from educational content.
 
-my first project. built it to learn by doing.
+## Overview
 
-## what it does
+My first project. Built it because I needed a way to save notes from videos/podcasts and review them later.
 
-- quick capture notes from videos/podcasts
-- random review (spaced repetition)
-- topic filtering
-- simple interface
+## What It Does
 
-## tech
+- Quick capture notes from videos/podcasts
+- Random review with spaced repetition
+- Filter by topics
+- Clean, simple interface
 
-- react + typescript (used AI to help while learning)
-- tailwind css
-- localStorage
+## Tech Stack
 
-## what i learned
+- React + TypeScript
+- Tailwind CSS
+- localStorage (no backend needed)
 
-- shipping something > perfect plans
-- using AI to build while learning is normal now
-- building teaches way more than tutorials
-- you figure out what you like by actually doing it
+## How It Works
 
-## what's next
+1. Add notes while watching/listening to content
+2. Tag with topics
+3. Review random notes later (spaced repetition style)
+4. Filter by topic to focus on specific areas
 
-experimenting with different approaches:
-- understanding the code better (learning react properly)
-- redesigning it in figma (exploring design)
-- maybe rebuilding in framer (trying no-code)
+## What I Learned
 
-figuring out which part i enjoy most.
+- Shipping something > perfect plans
+- Using AI to build stuff is totally viable now
+- You don't need to be an expert to build things
+- Just get it done and move on
 
----
+## Development
 
-built by someone figuring it out. that's the point.
+Built entirely with AI assistance. I had an idea, AI helped me build it. The code works, that's all that matters.
+
+## Notes
+
+This was vibecoded with AI. I'm not a developer and not trying to become one. Just wanted to build something useful and I did.
+
+## Run It
+```bash
+npm install
+npm start
+```
+
+Open http://localhost:3000
